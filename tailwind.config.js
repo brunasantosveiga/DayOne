@@ -18,18 +18,36 @@ module.exports = {
         "clipboard-to": "#FFD4D4",
         "university-from": "#FFDEC7",
         "university-to": "#D4D9FF",
+
+        primary: "#f4f4fb",
+        secondary: "#fafbff",
+        darker: "#131339",
       },
       height: {
         1200: "1200px",
         779: "779px",
+        742: "742px",
+
+        484: "484px",
+        49: "49px",
       },
       width: {
         1600: "1600px",
         336: "336px",
         1054: "1054px",
+
+        400: "400px",
+        571: "571px",
+        103: "103px",
       },
       gap: {
         gap: "23px",
+      },
+      top: {
+        topmodal: "186px",
+      },
+      left: {
+        leftmodal: "472px",
       },
     },
   },

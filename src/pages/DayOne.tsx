@@ -1,10 +1,10 @@
-import { Brush } from "../components/icons/Brush";
-import { CodeBracket } from "../components/icons/CodeBracket";
-import { Gear } from "../components/icons/Gear";
-import { User } from "../components/icons/Users";
-import { Clipboard } from "../components/icons/Clipboard";
-import { University } from "../components/icons/University";
-import { Card } from "../components/Card";
+import { Brush } from "../components/dayOne/icons/Brush";
+import { CodeBracket } from "../components/dayOne/icons/CodeBracket";
+import { Gear } from "../components/dayOne/icons/Gear";
+import { User } from "../components/dayOne/icons/Users";
+import { Clipboard } from "../components/dayOne/icons/Clipboard";
+import { University } from "../components/dayOne/icons/University";
+import { Card } from "../components/dayOne/Card";
 
 export const DayOne = () => {
   return (
