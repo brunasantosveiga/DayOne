@@ -39,15 +39,11 @@ module.exports = {
         400: "400px",
         571: "571px",
         103: "103px",
+        108: "108px",
+        176: "176px",
       },
       gap: {
         gap: "23px",
-      },
-      top: {
-        topmodal: "186px",
-      },
-      left: {
-        leftmodal: "472px",
       },
     },
   },

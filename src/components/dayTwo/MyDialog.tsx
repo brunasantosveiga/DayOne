@@ -11,8 +11,8 @@ export const MyDialog = () => {
       onClose={() => setIsOpen(false)}
       className="absolute left-96 top-64"
     >
-      <Dialog.Panel className="absolute w-571 h-742 bg-secondary border-2 p-14 rounded-3xl">
-        <Dialog.Title className="text-lg leading-5 mb-3 font-semibold">
+      <Dialog.Panel className="absolute w-571 h-742 bg-secondary border-2 p-12 rounded-3xl">
+        <Dialog.Title className="text-lg leading-5 mb-2 font-semibold">
           About Your Privacity
         </Dialog.Title>
         <Dialog.Description className="text-sm">
@@ -24,13 +24,27 @@ export const MyDialog = () => {
           purpose below or at a partner level in the link under each purpose.
           These choices will be signaled to our vendors.
         </Dialog.Description>
-        <button className="w-103 h-49 rounded-3xl bg-darker text-white mt-5 mb-10">
+        <button className="w-103 h-49 rounded-3xl bg-darker text-white mt-3 mb-5">
           Allow all
         </button>
-        <h1 className="text-base font-medium mb-4">
+        <h1 className="text-base font-medium mb-3">
           Manage Consent Preferences
         </h1>
-        <ToogleArea />
+        <ToogleArea texto={"Strictly Necessary Cookies"} toogle={false} />
+        <ToogleArea texto={"Funcional Cookies"} toogle={true} />
+        <ToogleArea texto={"Performance Cookies"} toogle={true} />
+        <ToogleArea
+          texto={
+            "Personalised ads and content measurement, audience insights and product development Cookies"
+          }
+          toogle={true}
+        />
+        <button className="w-108 h-49 rounded-3xl bg-darker text-white mt-5 mb-10 mr-2">
+          Reject all
+        </button>
+        <button className="w-176 h-49 rounded-3xl bg-darker text-white mt-5 mb-10">
+          Submit My Choices
+        </button>
       </Dialog.Panel>
     </Dialog>
   );
